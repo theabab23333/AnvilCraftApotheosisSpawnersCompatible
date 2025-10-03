@@ -1,15 +1,11 @@
 package dev.anvilcraft.addon.aasc.data;
 
-import com.tterrag.registrate.providers.ProviderType;
-import dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate;
-import dev.anvilcraft.addon.aasc.data.lang.LangHandler;
+import dev.anvilcraft.addon.aasc.AASC;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
-import static dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate.REGISTRATE;
-
-@EventBusSubscriber(modid = AnvilCraftAddonTemplate.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = AASC.MOD_ID)
 public class ModDatagen {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {}
@@ -18,6 +14,6 @@ public class ModDatagen {
      * 初始化生成器
      */
     public static void init() {
-        REGISTRATE.addDataGenerator(ProviderType.LANG, LangHandler::init);
+//        REGISTRATE.addDataGenerator(ProviderType.LANG, LangHandler::init);
     }
 }

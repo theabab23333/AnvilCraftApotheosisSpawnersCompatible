@@ -75,4 +75,7 @@ repositories {
             includeGroup "dev.latvian.apps"
         }
     }
+    maven {  // Shadows
+        url "https://maven.shadowsoffire.dev/releases"
+    }
 }
