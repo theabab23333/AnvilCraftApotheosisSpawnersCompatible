@@ -10,6 +10,7 @@ jade = "15.3.4+neoforge"
 patchouli = "1.21-87-NEOFORGE"
 modDevGradle = "2.0.78"
 lombok = "8.7.1"
+apothicspawners = "1.21.1-1.3.2"
 
 [libraries]
 registrate = { group = "com.tterrag.registrate", name = "Registrate", version.ref = "registrate" }
@@ -21,6 +22,7 @@ jeiForgeApi = { group = "mezz.jei", name = "jei-1.21.1-neoforge-api", version.re
 jeiForgeImpl = { group = "mezz.jei", name = "jei-1.21.1-neoforge", version.ref = "jei" }
 jade = { group = "maven.modrinth", name = "jade", version.ref = "jade" }
 patchouli = { group = "vazkii.patchouli", name = "Patchouli", version.ref = "patchouli" }
+apothicspawners = { group = "dev.shadowsoffire", name = "ApothicSpawners", version.ref = "apothicspawners" }
 
 [plugins]
 modDevGradle = { id = "net.neoforged.moddev", version.ref = "modDevGradle" }

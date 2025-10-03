@@ -23,4 +23,7 @@ dependencies {
 
     // Patchouli
     implementation(libs.patchouli)
+
+    // Shadows
+    implementation(libs.apothicspawners)
 }
