@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.addon.aasc.init;
 
-import dev.anvilcraft.addon.template.AnvilCraftAddonTemplate;
+import dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate;
 import dev.dubhe.anvilcraft.init.item.ModItemGroups;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
@@ -8,7 +8,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRATE;
+import static dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate.REGISTRATE;
 
 
 public class AddonItemGroups {

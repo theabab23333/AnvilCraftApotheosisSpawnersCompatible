@@ -1,10 +1,10 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.addon.aasc.init;
 
 import com.tterrag.registrate.util.entry.ItemEntry;
 import dev.dubhe.anvilcraft.AnvilCraft;
 import net.minecraft.world.item.Item;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRATE;
+import static dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate.REGISTRATE;
 
 public class AddonItems {
     static {

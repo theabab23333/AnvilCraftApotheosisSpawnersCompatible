@@ -1,9 +1,9 @@
-package dev.anvilcraft.addon.template.init;
+package dev.anvilcraft.addon.aasc.init;
 
 import com.tterrag.registrate.util.entry.BlockEntry;
 import net.minecraft.world.level.block.Block;
 
-import static dev.anvilcraft.addon.template.AnvilCraftAddonTemplate.REGISTRATE;
+import static dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate.REGISTRATE;
 
 public class AddonBlocks {
     static {

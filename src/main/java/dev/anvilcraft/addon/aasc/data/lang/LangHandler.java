@@ -1,7 +1,7 @@
-package dev.anvilcraft.addon.template.data.lang;
+package dev.anvilcraft.addon.aasc.data.lang;
 
 import com.tterrag.registrate.providers.RegistrateLangProvider;
-import dev.anvilcraft.addon.template.AddonConfig;
+import dev.anvilcraft.addon.aasc.AddonConfig;
 import dev.anvilcraft.lib.config.ConfigData;
 
 public class LangHandler {

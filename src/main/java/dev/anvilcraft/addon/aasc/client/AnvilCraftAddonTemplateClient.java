@@ -1,6 +1,6 @@
-package dev.anvilcraft.addon.template.client;
+package dev.anvilcraft.addon.aasc.client;
 
-import dev.anvilcraft.addon.template.AnvilCraftAddonTemplate;
+import dev.anvilcraft.addon.aasc.AnvilCraftAddonTemplate;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;

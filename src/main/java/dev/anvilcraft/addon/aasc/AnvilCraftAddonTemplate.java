@@ -1,11 +1,11 @@
-package dev.anvilcraft.addon.template;
+package dev.anvilcraft.addon.aasc;
 
 import com.mojang.logging.LogUtils;
 import com.tterrag.registrate.Registrate;
-import dev.anvilcraft.addon.template.data.ModDatagen;
-import dev.anvilcraft.addon.template.init.AddonBlocks;
-import dev.anvilcraft.addon.template.init.AddonItemGroups;
-import dev.anvilcraft.addon.template.init.AddonItems;
+import dev.anvilcraft.addon.aasc.data.ModDatagen;
+import dev.anvilcraft.addon.aasc.init.AddonBlocks;
+import dev.anvilcraft.addon.aasc.init.AddonItemGroups;
+import dev.anvilcraft.addon.aasc.init.AddonItems;
 import dev.anvilcraft.lib.config.ConfigManager;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
