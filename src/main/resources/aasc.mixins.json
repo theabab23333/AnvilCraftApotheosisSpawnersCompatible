@@ -4,6 +4,7 @@
   "package": "dev.anvilcraft.addon.aasc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "HitSpawnerBehaviorMixin"
   ],
   "client": [
   ],

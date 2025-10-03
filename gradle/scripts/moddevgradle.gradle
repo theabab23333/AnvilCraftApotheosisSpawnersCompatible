@@ -6,12 +6,15 @@ neoForge {
         minecraftVersion = project.parchment_minecraft_version
     }
 
+    accessTransformers {
+        file('src/main/resources/META-INF/accesstransformer.cfg')
+    }
+
     var isJbr = System.getProperty('java.vm.vendor').contains('JetBrains')
 
     runs {
         client {
             client()
-            programArguments.addAll "--width", "1440", "--height", "841"
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
