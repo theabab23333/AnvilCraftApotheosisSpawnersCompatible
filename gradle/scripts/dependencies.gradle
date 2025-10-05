@@ -26,5 +26,6 @@ dependencies {
 
     // Shadows
     implementation("dev.shadowsoffire:Apotheosis:1.21.1-8.4.0")
+    implementation("dev.shadowsoffire:Placebo:1.21.1-9.9.1")
     implementation(libs.apothicspawners)
 }
