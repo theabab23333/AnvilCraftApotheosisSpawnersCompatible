@@ -25,5 +25,6 @@ dependencies {
     implementation(libs.patchouli)
 
     // Shadows
+    implementation("dev.shadowsoffire:Apotheosis:1.21.1-8.4.0")
     implementation(libs.apothicspawners)
 }
